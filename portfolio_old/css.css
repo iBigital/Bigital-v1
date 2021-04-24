@@ -1,0 +1,118 @@
+.wrapper {
+	width: 1000px;
+	height:1000px;
+	margin:0 auto;
+	list-style-type:none;
+}
+.header {
+	height:100px;
+	width:1000px;
+	p;
+	float:left;
+	background:url(assets/header.png);
+}
+.box {
+	height:850px;
+	width:1000px;
+	float:left;
+}
+
+.nav_links {
+	height:500px;
+	width:200px;
+	float:left;
+	overflow:hidden;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-top:175px;
+	padding-bottom:175px;
+}
+.link {
+	height:100px;
+	width:200px;
+	float:left;
+	overflow:hidden;
+	display:block;
+	list-style-type:none;
+	background-image:url(assets/links.png);
+	margin:0;
+	padding:0;
+}
+#home {
+	background-position:0 0;
+}
+#hobbies {
+	background-position:0 -100px;
+}
+#academics {
+	background-position:0 -200px;
+}
+#experiences {
+	background-position:0 -300px;
+}
+#achievements {
+	background-position:0 -400px;
+}
+#home:hover {
+	background-position:-200px 0;
+}
+#hobbies:hover {
+	background-position:-200px -100px;
+}
+#academics:hover {
+	background-position:-200px -200px;
+}
+#experiences:hover {
+	background-position:-200px -300px;
+}
+#achievements:hover {
+	background-position:-200px -400px;
+}
+#home:active {
+	background-position:-400px 0;
+}
+#hobbies:active {
+	background-position:-400px -100px;
+}
+#academics:active {
+	background-position:-400px -200px;
+}
+#experiences:active {
+	background-position:-400px -300px;
+}
+#achievements:active {
+	background-position:-400px -400px;
+}
+.main {
+	height:800px;
+	width:760px;
+	float:left;
+	padding-top:59px;
+	padding-left:40px;
+	text-align:center;
+}
+#resume {
+}
+.footer {
+	height:23px;
+	width:675px;
+	float:left;
+	margin-top:15px;
+	margin-left:325px;
+}
+a:link {
+    color: #ffc500;
+	text-decoration:none;
+}
+a:visited {
+    color: #ffc500;
+	text-decoration:none;
+}
+a:hover {
+    color: #fff;
+	text-decoration:none;
+}
+a:active {
+    color: #ffF;
+}
