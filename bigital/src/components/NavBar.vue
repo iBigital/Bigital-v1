@@ -109,7 +109,7 @@ a::after {
     width:100%;
     height:35px;
     padding-top:25px;
-    background-image: radial-gradient(circle, #6bc9c6 0%, #b8baba 100%);
+    background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 #nav_item {
   display: inline;
@@ -194,7 +194,7 @@ a::after {
     width:100%;
     height:35px;
     padding-top:30px;
-    background-color: white;
+    background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
     position: fixed;
 }
 #nav_item {
@@ -202,7 +202,7 @@ a::after {
   text-align: center;
   font-size: 16px;
   padding:15px;
-  background-color: white;
+  background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 #nav_logo {
   float:left;
