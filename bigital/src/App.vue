@@ -1,16 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+
+    <NavBar/>
+
+  <img width="100%" alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." src="./assets/logo.png">
+
     <HelloWorld msg="Brentyn Kicks Ass"/>
+
+     <HelloWorld msg="Testing Stuff"/>
+
   </div>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
+    NavBar,
     HelloWorld
   }
 }
@@ -23,6 +32,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
