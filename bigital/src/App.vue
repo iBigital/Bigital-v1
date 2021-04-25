@@ -3,24 +3,26 @@
 
     <NavBar/>
 
-  <img width="100%" alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." src="./assets/logo.png">
+    <Intro /> 
 
-    <HelloWorld msg="Brentyn Kicks Ass"/>
+    <LandingContent />
 
-     <HelloWorld msg="Testing Stuff"/>
+    <img width="100%" alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." src="./assets/logo.png">
 
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import Intro from './components/Intro.vue'
+import LandingContent from './components/LandingContent.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    HelloWorld
+    Intro,
+    LandingContent
   }
 }
 </script>

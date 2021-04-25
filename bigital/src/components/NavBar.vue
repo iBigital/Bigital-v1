@@ -48,7 +48,7 @@ export default {
 
 <style>
 *{
-  margin: 0 !important; 
+  margin: 0 auto !important; 
 }
 
 @media screen and (min-width: 720px) { 
@@ -109,7 +109,7 @@ a::after {
     width:100%;
     height:35px;
     padding-top:25px;
-    background-color: white;
+    background-image: radial-gradient(circle, #6bc9c6 0%, #b8baba 100%);
 }
 #nav_item {
   display: inline;
