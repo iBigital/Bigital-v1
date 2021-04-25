@@ -12,11 +12,14 @@
       <div class="divider"> </div>
     </div>
     <div class="mobile">
+      <div>
+      <button @click="isShow = !isShow" class="nav_display"> <span class="iconify" data-icon="oi:menu" data-inline="false"></span> </button>
+      </div> 
       <ul> 
         <li id="nav_logo"> <img float="left" height="50px" alt="Bigital Rabbit Logo" src="../assets/logo.png"> </li>
-        <button @click="isShow = !isShow" class="nav_display"> <span class="iconify" data-icon="oi:menu" data-inline="false"></span> </button>
-        <div v-show="isShow">
-        <li id="nav_item"><a href="/">Home</a></li>
+        <div style="margin-left:-50px !important;" v-show="isShow">
+        <li id="nav_item"></li>
+        <li id="nav_item" style="margin-top:-10px !important;"><a href="/">Home</a></li>
         <li id="nav_item"><a href="/">Services</a></li>
         <li id="nav_item"><a href="/">"Company"</a></li>
         <li id="nav_item"><a href="/">Clients</a></li>
@@ -104,7 +107,7 @@ a::after {
 .nav_wrapper {
     position: fixed;
     width:100%;
-    height:40px;
+    height:35px;
     padding-top:25px;
     background-color: white;
 }
@@ -112,6 +115,7 @@ a::after {
   display: inline;
   padding: 4vw;
   font-size: 16px;
+  margin-left:-15px !important;
 }
 #nav_logo {
   float:left;
@@ -151,7 +155,39 @@ a {
   -webkit-transition:0.5s;
 }
 a:hover {
-  text-decoration: underline;
+  border: black;
+  border-spacing: 4px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6x;
+  border-radius: 6px;
+  border: 2px solid;
+  transition: 0.5s;
+  padding: 0 20px;
+}
+
+a::before, .box::after {
+  width: 100%;
+  height:100%;
+  z-index: 3;
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+
+a::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  -webkit-transform-origin: 0 100%;
+}
+
+a::after {
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-transform-origin: 100% 0%;
 }
 .nav_wrapper {
     position: absolute;
@@ -159,6 +195,7 @@ a:hover {
     height:35px;
     padding-top:30px;
     background-color: white;
+    position: fixed;
 }
 #nav_item {
   display:block;
@@ -176,7 +213,7 @@ a:hover {
 }
 .nav_display {
   float:right;
-  margin-right:20px !important;
+  margin-right:40px !important;
   margin-top:-14px !important;
   height:35px;
   width:45px;
