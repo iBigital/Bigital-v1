@@ -1,17 +1,18 @@
 <template> 
 
-<div>
+<div class="wrapper">
      
-<div class="desktop_spacer"> </div>
+<div class="desktop_spacer"></div>
 
-<div class="wrapper"> 
+<div class="content_wrapper">
+<div class="notice_banner"> Under Construction! Check <a style='color: grey;' href="www.ibigital.com"> iBigital.com </a> soon for the results! </div>
 
-<div class="notice_banner"> Simplifing the digital world one user at a time... contact today with your business or personal needs! </div>
+<img width="650px" alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." src="@/assets/logo.png">
+
+<p> Created by Brentyn Hanna </p>
 
 </div>
-
 </div>
-
 </template>
 
 <script> 
@@ -23,23 +24,25 @@
 @media screen and (min-width: 1080px ) {
 
  .wrapper {
-     
+     width:100%;
+     margin:0;
+     padding:0;
+     display: flex;
+     flex-direction: row;
  }
 
 .desktop_spacer {
-    float:left;
     width:40vw;
-    height:100%;
-    margin-top:60px !important;
+    background-color: aqua;
 }
-
+.content_wrapper {
+}
 .notice_banner {    
-    float:left;;
-    width:100%;
+    width:60vw;
     color:white;
     background-color: black;
-    padding:20px;
-        margin-top:60px !important;
+    padding: 20px 0 20px 0;
+    margin-top:60px !important;
 }
  
 
@@ -51,11 +54,17 @@
     width:100%;
 }
 
-.notice_banner {
-    height:50px;
-    width:100%;
+.desktop_spacer {
+    display:none;
+}
+.content_wrapper {
+}
+.notice_banner {    
+    width:60vw;
+    color:white;
     background-color: black;
-  
+    padding: 20px 0 20px 0;
+    margin-top:60px !important;
 }
 
 }
@@ -64,7 +73,20 @@
 
  .wrapper {
     width:100%;
-    height:50vh;
+}
+
+.desktop_spacer {
+    display:none;
+}
+.content_wrapper {
+}
+.notice_banner {    
+    width:60vw;
+    color:white;
+
+    background-color: black;
+    padding: 20px 0 20px 0;
+    margin-top:60px !important;
 }
 
 }

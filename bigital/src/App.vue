@@ -7,8 +7,6 @@
 
     <LandingContent />
 
-    <img width="100%" alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." src="./assets/logo.png">
-
   </div>
 </template>
 
