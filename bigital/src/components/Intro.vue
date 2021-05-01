@@ -42,7 +42,7 @@ Bigital SP | © 2021 All Rights Reserved
 
  .wrapper {
     width:40vw;
-    height:100%;
+    height:100vh;
     margin-top:60px !important;
     position:fixed;
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
@@ -50,6 +50,7 @@ Bigital SP | © 2021 All Rights Reserved
 
 #intro_pic {
     height:80vh;
+    min-height:350px;
 }
 
 .social {
