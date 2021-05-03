@@ -24,8 +24,15 @@
 
 <div class="info"> 
 <p style="padding-left:50px;"> 
-<img height="12px" alt="Bigital Rabbit Logo" src="../assets/simple_logo.png">            
+
+<img 
+height="12px" 
+alt="Bigital Rabbit Logo" 
+src="../assets/simple_logo.png"
+>           
+
 Bigital SP | © 2021 All Rights Reserved 
+
 </p>
 </div>
 
@@ -54,9 +61,7 @@ Bigital SP | © 2021 All Rights Reserved
 }
 
 .social {
-    width:40vw;
     margin-top:-70px !important;
-    padding-top:20px;
     float:left;
     position:fixed;
     z-index:3;
@@ -69,12 +74,8 @@ li {
 }
 
 .info {
-    width:40vw;
     position:fixed;
-    float:left;
-    text-align:left;
     z-index:4;
-    padding-top:40px;
 }
 
 }
@@ -83,23 +84,23 @@ li {
 
 .wrapper {
     width:100%;
-    height:80vh;
+    height:100vh;
+    min-height:400px;
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 
 #intro_pic {
-    height:100%;
+    height:80%;
+    min-height:300px;
 }
 
-.social {
-    padding-left:40px;
-    margin-top:-100px !important;
+ul {
+    display:flex;
+    margin-left:-40px !important;
 }
 li {
-    height:50px;
-    width:50px;
-    float:left;
-    padding:10px;
+    padding:7px;
+    flex-direction: column;
 }
 
 .info {
@@ -110,24 +111,26 @@ display:none;
 
 @media screen and (max-width: 719.5px) { 
 
- .wrapper {
-    width:100%;
-    height:50vh;
+.wrapper {
+    height:80vh;
+    min-height:300px;
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 
 #intro_pic {
-    height:100%;
+    height:70%;
+    position:bottom;
+    min-height:200px;
+    padding-top:30px;
 }
 
-.social {
-    margin-top:-320px !important;
-    margin-left:-540px !important;
+ul {
+    display:flex;
+    margin-left:-40px !important;
 }
 li {
-    height:50px;
-    width:50px;
-    padding:10px;
+    padding:7px;
+    flex-direction:column;
 }
 
 .info {

@@ -2,7 +2,14 @@
     <div class="nav_wrapper">
     <div class="desktop">
       <ul> 
-        <li id="nav_logo"> <img float="left" height="50px" alt="Bigital Rabbit Logo" src="../assets/logo.png"> </li>
+        <li id="nav_logo"> 
+          <img 
+          float="left" 
+          height="50px" 
+          alt="Bigital Rabbit Logo" 
+          src="../assets/logo.png"
+          > 
+        </li>
         <li id="nav_item"><a href="/">Home</a></li>
         <li id="nav_item"><a href="/">Services</a></li>
         <li id="nav_item"><a href="/">"Company"</a></li>
@@ -16,7 +23,14 @@
       <button @click="isShow = !isShow" class="nav_display"> <span class="iconify" data-icon="oi:menu" data-inline="false"></span> </button>
       </div> 
       <ul> 
-        <li id="nav_logo"> <img float="left" height="50px" alt="Bigital Rabbit Logo" src="../assets/logo.png"> </li>
+        <li id="nav_logo"> 
+          <img 
+          float="left" 
+          height="50px" 
+          alt="Bigital Rabbit Logo" 
+          src="../assets/logo.png"
+          > 
+          </li>
         <div style="margin-left:-50px !important;" v-show="isShow">
         <li id="nav_item"></li>
         <li id="nav_item" style="margin-top:-10px !important;"><a href="/">Home</a></li>
@@ -89,6 +103,7 @@ a::before, .box::after {
   left:0;
   box-sizing: border-box;
   -webkit-transform: scale(0);
+  transform: scale(0);
   transition: 0.5s;
 }
 
@@ -96,12 +111,14 @@ a::before {
   border-bottom: 3px solid #FFF;
   border-left: 3px solid #FFF;
   -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
 }
 
 a::after {
   border-top: 3px solid #FFF;
   border-right: 3px solid #FFF;
   -webkit-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
 }
 
 .nav_wrapper {
@@ -175,6 +192,7 @@ a::before, .box::after {
   left:0;
   box-sizing: border-box;
   -webkit-transform: scale(0);
+  transform: scale(0);
   transition: 0.5s;
 }
 
@@ -182,12 +200,14 @@ a::before {
   border-bottom: 3px solid #FFF;
   border-left: 3px solid #FFF;
   -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
 }
 
 a::after {
   border-top: 3px solid #FFF;
   border-right: 3px solid #FFF;
   -webkit-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
 }
 .nav_wrapper {
     position: absolute;

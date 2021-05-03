@@ -5,9 +5,17 @@
 <div class="desktop_spacer"></div>
 
 <div class="content_wrapper">
-<div class="notice_banner"> Under Construction! Check <a style='color: grey;' href="www.ibigital.com"> iBigital.com </a> soon for the results! </div>
+<div class="notice_banner"> 
+    Under Construction! Check 
+    <a style='color: grey;' href="www.ibigital.com"> iBigital.com </a> 
+    soon for the results! 
+</div>
 
-<img width="650px" alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." src="@/assets/logo.png">
+<img 
+id="intro_pic" 
+alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." 
+src="@/assets/logo.png"
+>
 
 <p> Created by Brentyn Hanna </p>
 
@@ -44,6 +52,9 @@
     padding: 20px 0 20px 0;
     margin-top:60px !important;
 }
+#intro_pic {
+    width: 650px;
+}
  
 
 }
@@ -66,6 +77,9 @@
     padding: 20px 0 20px 0;
     margin-top:60px !important;
 }
+#intro_pic {
+    width: 650px;
+}
 
 }
 
@@ -87,6 +101,9 @@
     background-color: black;
     padding: 20px 0 20px 0;
     margin-top:60px !important;
+}
+#intro_pic {
+    width: 100%;
 }
 
 }
