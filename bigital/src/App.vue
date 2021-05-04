@@ -1,9 +1,9 @@
 <template>
   <div id="app">
 
-    <NavBar/>
+    <TheNavbar />
 
-    <Intro /> 
+    <TheIntro /> 
 
     <LandingContent />
 
@@ -11,15 +11,15 @@
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
-import Intro from './components/Intro.vue'
+import TheNavbar from './components/TheNavbar.vue'
+import TheIntro from './components/TheIntro.vue'
 import LandingContent from './components/LandingContent.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar,
-    Intro,
+    TheNavbar,
+    TheIntro,
     LandingContent
   }
 }

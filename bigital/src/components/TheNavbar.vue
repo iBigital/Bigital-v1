@@ -2,14 +2,14 @@
     <div class="nav_wrapper">
     <div class="desktop">
       <ul> 
-        <li id="nav_logo"> 
+        <div id="nav_logo"> 
           <img 
           float="left" 
           height="50px" 
           alt="Bigital Rabbit Logo" 
           src="../assets/logo.png"
           > 
-        </li>
+        </div>
         <li id="nav_item"><a href="/">Home</a></li>
         <li id="nav_item"><a href="/">Services</a></li>
         <li id="nav_item"><a href="/">"Company"</a></li>
