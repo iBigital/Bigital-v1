@@ -23,18 +23,17 @@
       <button @click="isShow = !isShow" class="nav_display"> <span class="iconify" data-icon="oi:menu" data-inline="false"></span> </button>
       </div> 
       <ul> 
-        <li id="nav_logo"> 
+        <div id="nav_logo"> 
           <img 
           float="left" 
           height="50px" 
           alt="Bigital Rabbit Logo" 
           src="../assets/logo.png"
           > 
-          </li>
-        <div style="margin-left:-50px !important;" v-show="isShow">
-        <li id="nav_item"></li>
-        <li id="nav_item" style="margin-top:-10px !important;"><a href="/">Home</a></li>
-        <li id="nav_item"><a href="/">Services</a></li>
+        </div>
+        <div style="margin-left:-15px !important;" v-show="isShow">
+        <li id="nav_item" style="margin-left:-50px !important;"><a href="/">Home</a></li>
+        <li id="nav_item"><router-link to="/services">Services</router-link></li>
         <li id="nav_item"><a href="/">"Company"</a></li>
         <li id="nav_item"><a href="/">Clients</a></li>
         <li id="nav_item"><a href="/">Contact</a></li>

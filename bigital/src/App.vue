@@ -3,24 +3,20 @@
 
     <TheNavbar />
 
-    <TheIntro /> 
-
-    <LandingContent />
+    <TheHeading /> 
 
   </div>
 </template>
 
 <script>
 import TheNavbar from './components/TheNavbar.vue'
-import TheIntro from './components/TheIntro.vue'
-import LandingContent from './components/LandingContent.vue'
+import TheHeading from './components/TheHeading.vue'
 
 export default {
   name: 'App',
   components: {
     TheNavbar,
-    TheIntro,
-    LandingContent
+    TheHeading
   }
 }
 </script>

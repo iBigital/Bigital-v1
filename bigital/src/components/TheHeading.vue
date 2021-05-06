@@ -58,6 +58,7 @@ Bigital SP | © 2021 All Rights Reserved
 #intro_pic {
     height:80vh;
     min-height:350px;
+    max-height:900px;
 }
 
 .social {
