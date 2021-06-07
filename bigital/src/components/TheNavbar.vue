@@ -11,9 +11,7 @@
           > 
         </div>
         <li id="nav_item"><a href="/">Home</a></li>
-        <li id="nav_item"><a href="/">Services</a></li>
-        <li id="nav_item"><a href="/">"Company"</a></li>
-        <li id="nav_item"><a href="/">Clients</a></li>
+        <li id="nav_item"><a href="/">Coming Soon</a></li>
         <li id="nav_item"><a href="/">Contact</a></li>
       </ul>
       <div class="divider"> </div>
@@ -33,9 +31,7 @@
         </div>
         <div style="margin-left:-15px !important;" v-show="isShow">
         <li id="nav_item" style="margin-left:-50px !important;"><a href="/">Home</a></li>
-        <li id="nav_item"><router-link to="/services">Services</router-link></li>
-        <li id="nav_item"><a href="/">"Company"</a></li>
-        <li id="nav_item"><a href="/">Clients</a></li>
+        <li id="nav_item"><a href="/">Coming Soon</a></li>
         <li id="nav_item"><a href="/">Contact</a></li>
         </div>
       </ul>

@@ -1,7 +1,8 @@
 <template> 
 <div class="wrapper"> 
 
-<img src="../assets/intro_pic.png" id="intro_pic">
+<img src="../assets/intro_pic.png" id="intro_pic_desktop">
+<img src="../assets/intro_pic_small.png" id="intro_pic_mobile">
 
 <div class="social"> 
 <ul> 
@@ -25,13 +26,12 @@
 <div class="info"> 
 <p style="padding-left:50px;"> 
 
+Bigital 
 <img 
 height="12px" 
 alt="Bigital Rabbit Logo" 
-src="../assets/simple_logo.png"
->           
-
-Bigital SP | © 2021 All Rights Reserved 
+src="../assets/simple_logo.png">     
+| © 2021 All Rights Reserved 
 
 </p>
 </div>
@@ -48,17 +48,20 @@ Bigital SP | © 2021 All Rights Reserved
 @media screen and (min-width: 1080px ) {
 
  .wrapper {
-    width:40vw;
+    width:35vw;
     height:100vh;
     margin-top:60px !important;
     position:fixed;
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 
-#intro_pic {
+#intro_pic_desktop {
     height:80vh;
     min-height:350px;
     max-height:900px;
+}
+#intro_pic_mobile {
+    display:none;
 }
 
 .social {
@@ -72,6 +75,18 @@ li {
     width:50px;
     float:left;
     padding:10px;
+}
+
+li:hover {
+    border: black;
+    border-spacing: 4px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12x;
+    border-radius: 12px;
+    border: 2px solid;
+    transition: 0.5s;
+    padding: 4px;  
+    padding-top:10px;
 }
 
 .info {
@@ -90,9 +105,14 @@ li {
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 
-#intro_pic {
-    height:80%;
-    min-height:300px;
+#intro_pic_desktop {
+    display:none;
+}
+#intro_pic_mobile {
+    height:100vh;
+    min-height:350px;
+    max-height:400px;
+    background-size: auto;
 }
 
 ul {
@@ -118,11 +138,15 @@ display:none;
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 
-#intro_pic {
-    height:70%;
-    position:bottom;
-    min-height:200px;
-    padding-top:30px;
+#intro_pic_desktop {
+    display:none;
+}
+#intro_pic_mobile {
+    height:100vw;
+    min-height:250px;
+    max-height:280px;
+    background-size: auto;
+    margin-top:50px !important;
 }
 
 ul {

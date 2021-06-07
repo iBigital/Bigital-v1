@@ -5,18 +5,22 @@
 
     <TheHeading /> 
 
+    <LandingContent />
+
   </div>
 </template>
 
 <script>
 import TheNavbar from './components/TheNavbar.vue'
 import TheHeading from './components/TheHeading.vue'
+import LandingContent from '../router/LandingContent.vue'
 
 export default {
   name: 'App',
   components: {
     TheNavbar,
-    TheHeading
+    TheHeading,
+    LandingContent
   }
 }
 </script>
