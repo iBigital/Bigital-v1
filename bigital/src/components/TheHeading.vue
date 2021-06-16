@@ -99,9 +99,9 @@ li:hover {
 @media screen and (max-width:1079.5px ) and (min-width: 720px ) {
 
 .wrapper {
-    width:100%;
-    height:100vh;
+    height:fit-content;
     min-height:400px;
+    padding-bottom:20px;
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 
@@ -109,8 +109,7 @@ li:hover {
     display:none;
 }
 #intro_pic_mobile {
-    height:100vh;
-    min-height:350px;
+    height:100%;
     max-height:400px;
     background-size: auto;
 }
@@ -133,8 +132,9 @@ display:none;
 @media screen and (max-width: 719.5px) { 
 
 .wrapper {
-    height:80vh;
+    height:fit-content;
     min-height:300px;
+    padding-bottom:20px;
     background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 
@@ -142,9 +142,8 @@ display:none;
     display:none;
 }
 #intro_pic_mobile {
-    height:100vw;
-    min-height:250px;
-    max-height:280px;
+    width:100%;
+    max-height:50vh;
     background-size: auto;
     margin-top:50px !important;
 }

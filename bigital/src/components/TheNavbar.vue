@@ -1,5 +1,5 @@
 <template>
-    <div class="nav_wrapper">
+    <nav class="nav_wrapper">
     <div class="desktop">
       <ul> 
         <div id="nav_logo"> 
@@ -12,7 +12,6 @@
         </div>
         <li id="nav_item"><a href="/">Home</a></li>
         <li id="nav_item"><a href="/">Coming Soon</a></li>
-        <li id="nav_item"><a href="/">Contact</a></li>
       </ul>
       <div class="divider"> </div>
     </div>
@@ -29,16 +28,16 @@
           src="../assets/logo.png"
           > 
         </div>
-        <div style="margin-left:-15px !important;" v-show="isShow">
-        <li id="nav_item" style="margin-left:-50px !important;"><a href="/">Home</a></li>
+        <div style="margin-left:-40px !important;" v-show="isShow">
+          <li id="nav_item"></li>
+        <li id="nav_item"><a href="/">Home</a></li>
         <li id="nav_item"><a href="/">Coming Soon</a></li>
-        <li id="nav_item"><a href="/">Contact</a></li>
         </div>
       </ul>
       <div class="divider"> </div>
     </div>
 
-    </div>
+    </nav>
 </template>
 
 <script>
@@ -56,6 +55,14 @@ export default {
 </script>
 
 <style>
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  text-transform:uppercase;
+  font-weight:900;
+}
+
 *{
   margin: 0 auto !important; 
 }
@@ -66,10 +73,6 @@ export default {
   display:none;
 }
 
-ul {
-  text-decoration: none;
-  list-style-type: none;
-}
 a {
   color:#2c3e50;
   text-decoration: none;
@@ -155,10 +158,6 @@ a::after {
   display:none;
 }
 
-ul {
-  text-decoration: none;
-  list-style-type: none;
-}
 a {
   color:#2c3e50;
   text-decoration: none;

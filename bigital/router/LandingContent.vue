@@ -6,28 +6,38 @@
 
 <div class="content_wrapper">
 <div class="notice_banner">
-    Under Construction! <wbr> Check 
-    <a style='color: grey;' href="www.ibigital.com"> iBigital.com </a> 
-    soon for the results! 
+    Email <a href = "mailto:brentyn@ibigital.com?subject=New Website&body=Im interested in discussing a website!"> Brentyn@iBigital.com </a> to discuss your new website!
 </div>
 
 <img 
 id="full_pic" 
-alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." 
+alt="'Your Data, Your Designer, Your Developer, Your Next FullStack Expert' overlaid rabbits in a field, one flying a rocketship in the background" 
 src="@/assets/header1.png"
 >
 
 <h1> Make technology simple. </h1>
 
-<p> Simple static websites & dynamic webapps, embedded programs, all the way to preventative IT maintence! </p>
+<p> Landing websites & dynamic webapps, embedded programs, all the way to preventative IT maintence! </p>
 
 <p> Bigital will find your custom solution! </p>
+
+<h2> Nice to meet you! </h2>
+
+<p> My name is Brentyn Hanna, and this is my businesses future website! </p> 
+<p> I hope there's enough here to catch your attention, but worry not more content is coming soon!
+Please check back later, however if you'd like to see more now visit any social media located below my picture or just email me directly at
+<br/>
+<a href = "mailto:brentyn@ibigital.com?subject=New Website&body=Im interested in discussing a website!"> Brentyn@iBigital.com. </a>
+</p>
+
 
 <img 
 id="full_pic" 
 alt="Bigital's Logo: a rabbit with a cute pair of goggles and circruitry running throughout." 
 src="@/assets/logo.png"
 >
+
+<br/><br/><br/>
 
 <p> Created by Brentyn Hanna </p>
 
@@ -41,6 +51,10 @@ src="@/assets/logo.png"
 
 <style scoped>
 
+a { 
+    color: rgb(156, 168, 172);
+}
+
 *{
     font-size:20px;
 }
@@ -51,6 +65,13 @@ h1 {
     padding:70px;
 }
 
+
+h2 {
+    text-align: center;
+    font-size: 2.0em;
+    padding:30px;
+}
+
 p{
     padding:50px;
     padding-top:0px;
@@ -58,7 +79,7 @@ p{
 
 #full_pic {
     width: 100%;
-    background: linear-gradient(235deg,#56ff45, #7f5fff, #211552, #e80a08);
+    background: linear-gradient(235deg,#d0ff00, #5f97ff, #211552, #e80a08);
     background-size: 200% 200%;
     -webkit-animation: BackgroundColorScrollAnimation 30s ease infinite;
     -moz-animation: BackgroundColorScrollAnimation 30s ease infinite;
@@ -125,7 +146,6 @@ p{
     color:white;
     background-color: black;
     padding: 20px 0 20px 0;
-    margin-top:60px !important;
 }
 #full_pic {
     width: 100%;
@@ -148,7 +168,6 @@ p{
     color:white;
     background-color: black;
     padding: 20px 0 20px 0;
-    margin-top:60px !important;
 }
 #full_pic {
     width: 100%;
