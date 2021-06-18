@@ -60,7 +60,7 @@ ul {
   text-decoration: none;
   list-style-type: none;
   text-transform:uppercase;
-  font-weight:900;
+  font-weight:600;
 }
 
 *{
@@ -120,11 +120,11 @@ a::after {
 }
 
 .nav_wrapper {
-    position: fixed;
-    width:100%;
-    height:35px;
-    padding-top:25px;
-    background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
+  position: fixed;
+  width:100%;
+  height:35px;
+  padding-top:25px;
+  background-image: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
 }
 #nav_item {
   display: inline;

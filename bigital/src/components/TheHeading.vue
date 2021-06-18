@@ -57,8 +57,7 @@ src="../assets/simple_logo.png">
 
 #intro_pic_desktop {
     height:80vh;
-    min-height:350px;
-    max-height:900px;
+    max-width:100%;
 }
 #intro_pic_mobile {
     display:none;
@@ -109,14 +108,16 @@ li:hover {
     display:none;
 }
 #intro_pic_mobile {
-    height:100%;
-    max-height:400px;
+    width:100%;
+    max-height:50vh;
     background-size: auto;
+    margin-top:50px !important;
 }
 
 ul {
     display:flex;
     margin-left:-40px !important;
+    margin-top:20px !important;
 }
 li {
     padding:7px;
@@ -145,11 +146,12 @@ display:none;
     width:100%;
     max-height:50vh;
     background-size: auto;
-    margin-top:50px !important;
+    margin-top:60px !important;
 }
 
 ul {
     display:flex;
+    margin-top:20px !important;
     margin-left:-40px !important;
 }
 li {
