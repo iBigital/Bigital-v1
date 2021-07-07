@@ -17,19 +17,23 @@ src="@/assets/header1.png"
 
 <h1> Make technology simple. </h1>
 
-<p> Landing websites & dynamic webapps, embedded programs, all the way to preventative IT maintence! </p>
+<div class="homepage_intro"> 
+
+<p> Landing websites & dynamic webapps, embedded programs, all the way to preventative IT maintenance! </p>
 
 <p> Bigital will find your custom solution! </p>
 
 <h2> Nice to meet you! </h2>
 
-<p> My name is Brentyn Hanna, and this is my businesses future website! </p> 
-<p> I hope there's enough here to catch your attention, but worry not more content is coming soon!
+<p> My name is Brentyn Hanna, and this is my businesses website! 
+<br/> <br/>
+I hope there's enough here to catch your attention, but worry not more content is coming soon!
 Please check back later, however if you'd like to see more now visit any social media located below my picture or just email me directly at
-<br/>
+<br/> <br/>
 <a href = "mailto:brentyn@ibigital.com?subject=New Website&body=Im interested in discussing a website!"> Brentyn@iBigital.com. </a>
 </p>
 
+</div>
 
 <img 
 id="full_pic" 
@@ -101,6 +105,11 @@ p{
     50%{background-position:100% 42%}
     100%{background-position:0% 59%}
 }
+
+.homepage_intro {
+    padding:0 15%;
+}
+
 
 
 @media screen and (min-width: 1080px ) {
