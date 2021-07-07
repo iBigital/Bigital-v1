@@ -2,8 +2,4 @@
     deployment:
         tasks:
             - export DEPLOYPATH=/home/lsfqhnt98wg9/public_html/
-            - /bin/cp/bigital/dist index.html $DEPLOYPATH
-            - /bin/cp/bigital/dist favicon.ico $DEPLOYPATH
-            - /bin/cp/bigital/dist -R css $DEPLOYPATH
-            - /bin/cp/bigital/dist -R img $DEPLOYPATH
-            - /bin/cp/bigital/dist -R js $DEPLOYPATH
+            - /bin/cp -R bigital/dist $DEPLOYPATH
