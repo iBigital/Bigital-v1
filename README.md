@@ -1,119 +1,69 @@
+# bgit-nuxt-portfolio
 
-![Bigital Logo](https://github.com/Brehtyn/portfolio/blob/main/bigital/src/assets/logo.png?raw=true)
-
-    
-# Developer Portfolio
-
-A digestible advertisement of a modern developers labor.
-
-~~ CLEARLY CURRENTLY UNDER CONSTRUCTION ~~
-
-
-## Screenshots
-
-![App Screenshot](https://github.com/Brehtyn/portfolio/blob/main/bigital/src/assets/SharedScreenshot.jpg?raw=true)
-
-  
-## Used By
-
-This project is currently used by:
-
-- Brentyn Hanna as their main portfolio.
-- Possibly you!
-
-  
-## Features
-
-- Running on the hottest jsframework: Vue!
-- Elegant mobile driven responsive design
-- "Show, not tell" display of services
-- Point of contact for sales
-- History of work and culuture
-- Opportunity to show off clients and previous work
-
-  
-## Acknowledgements
-
- - Who inspired the Vue outta me: [Jack Forge](https://twitter.com/TheJackForge)
- - Pro Logo Designer: [arts_queen](https://www.fiverr.com/arts_queen?source=order_page_summary_seller_link)
- - Perfect [README Builder](https://readme.so/)
- - Awesome [Photo Editor: Photopea](https://www.photopea.com/)
- - Cool [CSS Gradients](https://www.gradient-animator.com/)
- 
-## License
-
-[LICENSE](https://github.com/Brehtyn/portfolio/license.txt)
-
-All assets, graphics, & especially pictures are proprietary property of BIGITAL SP
-
-However all other parts of the project are open source and can be used personally or commercially for absolutely free. 
-## Contributing
-
-Contributions are always welcome! I wont mind if you push a typo request.
-
-Please adhere to this project's `code of conduct`.
-
-  
-## Installation 
-
-Make sure the latest version of:
-```bash
--Vue
--nodeJS 
--npm (recommended)
--git/GithubDesktop (recommended)
-```
-are installed correctly for your OS. 
-See [here](https://vuejs.org/v2/guide/installation.html) for more details.
-
-
-Finally clone via zip, client, or CLI:
-```bash
-https://github.com/Brehtyn/portfolio
-
-or
-
-git clone https://github.com/Brehtyn/portfolio
-```
-## Run Locally
-
-Go to the project directory
+## Build Setup
 
 ```bash
-  cd download-directory/portfolio
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
 ```
 
-Install/Update dependencies
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-```bash
-  npm install
-  
-  or
-  
-  npm update
+## Special Directories
 
-```
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
-Start the dev server
+### `assets`
 
-```bash
-  npm run serve
-```
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
 
-  
-## Deployment
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
 
-The beauty of Vue: to deploy simple & install directory anywhere.
+### `components`
 
-```bash
-  npm run build
-```
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
-  
-## Feedback
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
 
-If you have any feedback whatsoever, please reach out to me with <3 only 
-at brent.hanna@gmail.com
-w/ a subject line such as PORTFOLIO FEEDBACK.
+### `layouts`
 
-Thank You!
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+
+
+### `pages`
+
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+
+### `plugins`
+
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+
+### `static`
+
+This directory contains your static files. Each file inside this directory is mapped to `/`.
+
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+
+### `store`
+
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
