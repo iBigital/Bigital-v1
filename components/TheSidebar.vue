@@ -98,7 +98,6 @@
     margin: -35px 0 35px 0;
   }
   .info {
-    padding-left: 1rem;
     margin-top: -25px;
   }
 }

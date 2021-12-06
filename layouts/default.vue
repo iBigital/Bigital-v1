@@ -6,9 +6,10 @@
 
     <div id="page_wrapper">
       <Nuxt />
+      <TheFooter />
     </div>
     
-    <TheFooter />
+
   </div>
 </template>
 
@@ -25,7 +26,7 @@
 @media screen and (min-width: 1850px) {
   #page_wrapper {
     left: 600px;
-    min-width: calc(100% - 615px);
+    min-width: calc(100% - 600px);
   }
 }
 @media screen and (min-width: 1050px) and (max-width: 1850px) {

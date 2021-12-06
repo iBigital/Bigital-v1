@@ -29,6 +29,13 @@ a, ul, li {
     background-color: var(--color-secondary);
 }
 
+.bg-plate {
+    background-color: var(--color-secondary);
+    border-radius: 25px;
+    width: 95%;
+    padding: 2rem;
+}
+
 body,
 h1, h2, h3, h4, h5, h6,
 p {
@@ -52,8 +59,30 @@ img {
     max-width: 100%;
 }
 
+section {
+    margin: 0 auto !important;
+}
+
 .flex-center {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.flex-center-responsive {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .flex-center-responsive {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.text-center {
+    text-align: center;
 }
