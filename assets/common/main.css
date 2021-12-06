@@ -34,6 +34,7 @@ a, ul, li {
     border-radius: 25px;
     width: 95%;
     padding: 2rem;
+    color: #000;
 }
 
 body,
@@ -53,14 +54,18 @@ body {
     font-weight: 420;
     font-size: 1.3rem;
     line-height: 1.5;
+    color: var(--color-neutral);
 }
 
 img {
     max-width: 100%;
 }
 
+section:not(:first-child) {
+    margin: 3rem auto;
+}
 section {
-    margin: 0 auto !important;
+    padding: 2rem;
 }
 
 .flex-center {

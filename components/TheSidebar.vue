@@ -69,6 +69,7 @@
     margin-top:-21px;
     background-color: #fff;
     border-right: 1px solid #e5e5e5;
+    color: #000;
   }
   #intro_pic_desktop {
     padding-top: 25px;
@@ -91,8 +92,8 @@
     border-radius: 12px;
     border: 2px solid;
     transition: 0.5s;
-    padding: 4px;
-    padding-top: 6px;
+    padding: 6px;
+    padding-bottom: 0px;
   }
   .social {
     margin: -35px 0 35px 0;

@@ -7,7 +7,7 @@
         alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
       />
       <p>
-        Let the experts at Bigital help your next project soar to new heights!
+        Let the experts at Bigital help guide your next digital project to soar to new heights!
       </p>
     </section>
 
@@ -80,7 +80,7 @@
         Bigital strongly believes in the power of collaboration and wouldn't be
         possible without massive contribution to open source projects.
         <br />
-        If you want to see our soure code or even help us out, please visit our
+        If you want to see our source code or even help us out, please visit our
         Github.
       </p>
     </section>
@@ -93,13 +93,17 @@
     </section>
 
     <section class="text-center">
-
       <img
         src="../assets/curiosity.png"
         alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
       />
       <h1>Curious for more like we always are?</h1>
-      <a> Portfolio </a> |  <a> About "Us" </a>
+        <NuxtLink to="/portfolio">
+          Portfolio
+        </NuxtLink>>
+         <NuxtLink to="/about">
+          About "Us"
+        </NuxtLink>>
     </section>
   </div>
 </template>
