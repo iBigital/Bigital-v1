@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <img src="../assets/common/intro_pic_small.png" id="intro_pic_mobile" />
-
+  
     <div id="intro_pic_desktop" class="flex-center">
       <img src="../assets/common/intro_pic.png" />
     </div>
@@ -85,12 +85,12 @@
     display: none;
   }
   a:hover {
-    border: black;
     border-spacing: 4px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12x;
     border-radius: 12px;
     border: 2px solid;
+    border-color: var(--color-menu-border);
     transition: 0.5s;
     padding: 6px;
     padding-bottom: 0px;
