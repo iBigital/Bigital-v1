@@ -20,8 +20,6 @@
     top: 0;
     height: 100%;
     overflow-y: scroll;
-    background-color: rgb(119, 159, 233);
-
   }
 @media screen and (min-width: 1850px) {
   #page_wrapper {

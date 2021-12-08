@@ -39,5 +39,14 @@ img {
     height: auto;
 }
 
+ img:hover {
+    border-spacing: 4px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12x;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: var(--color-menu-border);
+    transition: 0.5s;
+  }
 
 </style>

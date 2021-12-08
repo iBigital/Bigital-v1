@@ -1,14 +1,14 @@
 <template>
-  <header>
+  <Nav>
 
       <img src="menu.svg" width="20px" alt="menu">
 
-  </header>
+  </Nav>
 </template>
 
 <style scoped> 
 
-  header {
+  Nav {
     z-index: 100;
     position: fixed;
     top: 1.5rem;
@@ -21,20 +21,21 @@
     border-width: .2rem;
     background-color: white;
     border-radius: 10px;
+    vertical-align: middle;
     padding: 10px;
     padding-bottom: 2px;
     margin: 0;
     text-align: center;
   }
 
-  header:hover {
+  Nav:hover {
     border-spacing: 4px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12x;
     border-radius: 12px;
     transition: 0.5s;
     padding: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     cursor: pointer;
   }
 

@@ -44,6 +44,7 @@ div {
     flex-direction: column;
     align-items: center;
     color: #000;
+    background-color: var(--color-neutral);
 }
     
 img {
