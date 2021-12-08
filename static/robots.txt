@@ -1,0 +1,20 @@
+
+Sitemap: https://ibigital.com/sitemap.txt
+
+User-agent: *
+Disallow: /contactForm.php
+
+User-agent: Baiduspider
+User-agent: Yisouspider
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: Sogou inst spider
+Disallow: /
+

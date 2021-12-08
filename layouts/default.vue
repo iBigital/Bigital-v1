@@ -1,10 +1,10 @@
-<template>
+<template class="daycycle-background">
   <div>
     <TheNavbar />
     
     <TheSidebar />
 
-    <div id="page_wrapper">
+    <div class="daycycle-background" id="page_wrapper">
       <Nuxt />
       <TheFooter />
     </div>

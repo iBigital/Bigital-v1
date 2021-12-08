@@ -67,7 +67,6 @@ body {
     font-size: 1.3rem;
     line-height: 1.5;
     color: var(--color-neutral);
-    background: var(--color-primary);
 }
 
 img {
@@ -110,4 +109,35 @@ section:not(:first-child) {
 
 .text-center {
     text-align: center;
+}
+
+.daycycle-background {
+    background: linear-gradient(93deg, #4b4646, #779fe9, #779fe9, #779fe9, #779fe9, #211552, #e80a08);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: daycycle 36s ease infinite;
+    -moz-animation: daycycle 36s ease infinite;
+    -o-animation: daycycle 36s ease infinite;
+    animation: daycycle 36s ease infinite;
+}
+
+@-webkit-keyframes daycycle {
+    0%{background-position:0% 23%}
+    50%{background-position:95% 78%}
+    100%{background-position:0% 23%}
+}
+@-moz-keyframes daycycle {
+    0%{background-position:0% 23%}
+    50%{background-position:95% 78%}
+    100%{background-position:0% 23%}
+}
+@-o-keyframes daycycle {
+    0%{background-position:0% 23%}
+    50%{background-position:95% 78%}
+    100%{background-position:0% 23%}
+}
+@keyframes daycycle {
+    0%{background-position:0% 23%}
+    50%{background-position:95% 78%}
+    100%{background-position:0% 23%}
 }

@@ -7,15 +7,14 @@
         alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
       />
       <p>
-        Let an expert at Bigital help guide your next digital project to help it
-        (and you) soar to new heights!
+        Let an expert at Bigital guide your next digital project to help you soar to new heights!
       </p>
     </section>
 
     <section class="text-center bg-plate">
       <h2>Service Offerings</h2>
       <p>
-        Whether you need a website, a mobile app, hosting service, or a custom
+        Whether you need a website, mobile app, hosting service, or
         software consulting, Bigital can craft the solutions your business or
         great idea needs to get going!
       </p>
