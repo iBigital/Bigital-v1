@@ -9,8 +9,10 @@
       <h3>{{ title }}</h3>
       <p>{{ description }}</p>
       <div class="flex-center-responsive">
-        <a :href="url" class="btn"> Live Demo </a>
-        <a :href="github" class="btn"> Github </a>
+        <a v-if="url" :href="url" class="btn"> Live Demo </a>
+        <a v-if="github" :href="github" class="btn"> Github </a>
+        <a v-if="githubAPI" :href="github" class="btn"> API Github </a>
+        <a v-if="thanksURL" :href="github" class="btn"> {{thanksPerson}} </a>
       </div>
     </div>
   </section>
@@ -37,11 +39,23 @@ export default {
     },
     url: {
       type: String,
-      default: "https://www.iBigital.com",
+      default: false,
     },
     github: {
       type: String,
-      default: "https://github.com/Brehtyn",
+      default: false,
+    },
+    githubAPI: {
+      type: String,
+      default: false,
+    },
+    thanksPerson: {
+      type: String,
+      default: false,
+    },
+    thanksURL: {
+      type: String,
+      default: false,
     },
   },
 };
@@ -99,6 +113,7 @@ p {
   text-align: left;
   font-size: 1.2rem;
   margin: 1rem 0;
+  color: var(--color-neutral-dark);
 }
 .btn {
     margin: 0.5rem 4rem;

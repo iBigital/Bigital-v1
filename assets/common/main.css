@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: Sora;
-    src: url(../../static/Sora.ttf)
+    src: url(../../static/assets/Sora.ttf)
   }
 @font-face {
     font-family: Merriweather;
-    src: url(../../static/Merriweather-Regular.ttf)
+    src: url(../../static/assets/Merriweather-Regular.ttf)
   }
 :root {
     --color-primary: rgb(119, 159, 233);
@@ -47,6 +47,7 @@ p > a:hover {
     border-color: var(--color-primary);
     transition: 0.5s;
     padding: 10px;
+    align-content: center;
     cursor: pointer;
 }
   

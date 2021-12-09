@@ -59,6 +59,7 @@ p {
     text-align: left;
     font-size: 1.2rem;
     margin: 1rem 0;
+    color: var(--color-neutral-dark);
 }
 
 </style>

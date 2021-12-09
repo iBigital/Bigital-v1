@@ -23,7 +23,7 @@
         <StandardCard
           title="Web Design"
           image="icons/desktop.svg"
-          description="From simple landing pages to complex webapps featuring enterprise functionality: we can make it and pretty too!"
+          description="From simple landing pages to complex webapps featuring enterprise functionality: it'll be pretty too!"
         />
         <StandardCard
           title="Hosting"
@@ -33,7 +33,7 @@
         <StandardCard
           title="Consulting"
           image="icons/consulting.svg"
-          description="Is your production build slow or completely broken? Contact us now to discuss custom consulting options."
+          description="Is your production build slow or completely broken? Contact now to discuss custom consulting options."
         />
       </div>
     </section>
@@ -238,7 +238,7 @@
         <br />
         To see the code running this page (and many other services), feel free
         to click here:
-        <a href="https://github.com/Brehtyn"> Github Repos </a>
+        <a href="https://github.com/Brehtyn?tab=repositories"> Github Repos </a>
       </p>
     </section>
 
@@ -264,11 +264,10 @@
           image="screenshots/sudsyserenity.jfif"
           alt="Screenshot of Sudsy Serenity's website."
           url="https://sudsyserenity.com/"
-          github="https://github.com/Brehtyn?tab=repositories"
         />
         <ExtendedCard
           title="Guiding Light Preschool"
-          description="Family daycare school made with plain HTML, CSS, JS, and PHP hosted on Cpanel."
+          description="Family daycare school made with HTML, CSS, JS, and PHP hosted on Cpanel."
           image="screenshots/glcec.jfif"
           alt="Screenshot of GLCEC's website."
           url="https://www.glcec.org/"

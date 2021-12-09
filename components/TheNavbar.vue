@@ -2,9 +2,10 @@
   <Nav>
     <div class="navbar">
       <NuxtLink to="/">
-        <img height="40px" alt="Bigital Rabbit Logo" src="logo.png" />
+        <img height="40px" alt="Bigital Rabbit Logo" src="assets/logo.png" />
       </NuxtLink>
       <span> </span>
+      <NuxtLink to="/services"> Services </NuxtLink>
       <NuxtLink to="/portfolio"> Portfolio </NuxtLink>
       <NuxtLink to="/about"> About </NuxtLink>
       <NuxtLink to="/contact"> Contact </NuxtLink>
@@ -17,7 +18,7 @@
         />
       </NuxtLink>
     </div>
-    <img id="mobile_display" src="menu.svg" width="20px" alt="menu" />
+    <img v-on="isActive" id="mobile_display" src="assets/menu.svg" width="20px" alt="menu" />
   </Nav>
 </template>
 
@@ -66,7 +67,7 @@ Nav {
     z-index: 100;
     position: fixed;
     top: 1.5rem;
-    right: 2.5rem;
+    right: 1.5rem;
     width: auto;
     max-width: 100px;
     height: auto;

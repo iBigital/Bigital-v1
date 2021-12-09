@@ -1,0 +1,88 @@
+<template>
+  <div>
+    <section class="text-center">
+      <h1>Services</h1>
+      <div class="service-intro flex-center-responsive">
+        <img
+          src="../assets/common/logo.png"
+          width="50%"
+          alt="Phil the Digital Rabbit"
+        />
+        <p>
+          Bigital offers premium software customization and programming for
+          people and businesses that need it! The digital landscape is an
+          absolute wilderness, so hire an expert to navigate your way.
+        </p>
+      </div>
+      <br />
+      <p>More detailed offerings will be avaliable soon.</p>
+    </section>
+    <section class="bg-plate">
+      <ExtendedCard
+        title="Web Design"
+        image="icons/desktop.svg"
+        description="From simple landing pages to complex webapps featuring enterprise functionality: it'll be pretty too!"
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Hosting"
+        image="icons/server.svg"
+        description="Enviromentally friendly servers without compromising top notch performance."
+      />
+      <ExtendedCard
+        title="Consulting"
+        image="icons/consulting.svg"
+        description="Is your production build slow or completely broken? Contact now to discuss custom consulting options."
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Automation"
+        description="We can help you automate your workflow with our custom automation solutions."
+      />
+      <ExtendedCard
+        title="Testing"
+        description="We can help you test your software to ensure it's working as expected."
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Training"
+        description="We can help you train your team to use your software."
+      />
+      <ExtendedCard
+        title="Support"
+        description="We can help you get your software up and running."
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Custom"
+        description="We can help you build your software to your specifications."
+       />
+    </section>
+
+    <section class="text-center">
+      <img
+        src="../assets/high_flying.png"
+        alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
+      />
+      <p>More is coming soon.</p>
+    </section>
+  </div>
+</template>
+
+<style scoped>
+.service-intro {
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.service-intro > p {
+  padding: 1rem;
+  text-align: left;
+  flex-shrink: 1;
+}
+
+.service-intro > img {
+  max-width: 300px;
+  height: auto;
+}
+</style>

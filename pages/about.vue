@@ -16,7 +16,7 @@
       </p>
       <img
         src="../assets/launch_prep.png"
-        alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
+        alt="Bigital's mascot and logo phil planning a rocket trip with trust advisor brown outside a launch pad."
       />
       <p>Genuinely, thank you!!!</p>
     </section>
@@ -25,10 +25,6 @@
     </section>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style scoped>
 </style>

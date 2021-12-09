@@ -22,7 +22,6 @@
         image="screenshots/sudsyserenity.jfif"
         alt="Screenshot of Sudsy Serenity's website."
         url="https://sudsyserenity.com/"
-        github="https://github.com/Brehtyn?tab=repositories"
       />
       <ExtendedCard
         title="Call of Dooty 702"
@@ -39,7 +38,6 @@
         image="screenshots/woodenchick.jfif"
         alt="Screenshot of The Wooden Chick's website."
         url="https://sudsyserenity.com/"
-        github="https://github.com/Brehtyn?tab=repositories"
       />
       <ExtendedCard
         title="Guiding Light Preschool"
@@ -56,7 +54,6 @@
         image="screenshots/ooofta.jfif"
         alt="Screenshot of OOOFTA's website."
         url="http://www.ooofta.com/"
-        github="https://github.com/Brehtyn?tab=repositories"
       />
     </section>
     <section>
@@ -68,6 +65,9 @@
         alt="Screenshot of Todo Simply's App."
         url="https://todo-simply.com/"
         github="https://github.com/Dvent1123/task-manager-client"
+        githubAPI="https://github.com/Dvent1123/task-manager-api"
+        thanksPerson="Daniel Ventura"
+        thanksURL="https://www.venturadaniel.com/"
       />
       <ExtendedCard
         id="flip-it"
@@ -77,6 +77,26 @@
         alt="Screenshot of Calisthenic Tracker's website."
         url="https://exercisemaphub.com/"
         github="https://github.com/Dvent1123/calisthenics-tracker-client"
+        githubAPI="https://github.com/Dvent1123/calisthenics-tracker-api"
+        thanksPerson="Dan the Man"
+        thanksURL="https://www.venturadaniel.com/"
+      />
+    </section>
+    <section>
+      <p class="text-center"> Useful Software: </p>
+      <ExtendedCard
+        title="Email Signature"
+        description="Oldfashion email signature using HTML, CSS, and Photoshop."
+        
+        alt="Screenshot of Email signature."
+        github="https://github.com/Brehtyn/bgit-html-email-sig"
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Jake LED Box"
+        description="Themed LED box made with Arduino, C++, and adafruit libraries."
+        alt="Screenshot of Email signature."
+        github="https://github.com/Brehtyn/jake-box"
       />
     </section>
     <section class="text-center">
@@ -88,9 +108,6 @@
     </section>
   </div>
 </template>
-<script>
-export default {};
-</script>
 
 <style scoped>
 </style>
