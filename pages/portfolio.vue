@@ -2,8 +2,6 @@
   <div>
     <section class="text-center">
       <h1>Portfolio</h1>
-      <br >
-      <p>Below are examples of my labor.</p>
     </section>
     <section>
       <p class="text-center"> Websites: </p>
@@ -98,13 +96,18 @@
         alt="Screenshot of Email signature."
         github="https://github.com/Brehtyn/jake-box"
       />
+      <ExtendedCard
+        title="Basic Web Skeleton"
+        description="For HTML, CSS, and JavaScript websites. Optional PHP contact form."
+        alt="Screenshot of Bweb Skeleton."
+        github="https://github.com/Brehtyn/bgit-bweb-skel"
+      />
     </section>
     <section class="text-center">
       <img
-        src="../assets/high_flying.png"
-        alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
+        src="../assets/common/logo.png"
+        alt="Bigital's mascot and logo phil giant in all his glory."
       />
-      <p>More is coming soon.</p>
     </section>
   </div>
 </template>

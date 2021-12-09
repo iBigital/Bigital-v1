@@ -2,14 +2,21 @@
   <div>
     <section class="text-center">
       <h1>Easy breezy digital consulting from Bigital</h1>
-      <img
-        src="../assets/high_flying.png"
-        alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
-      />
-      <p>
-        Let an expert at Bigital guide your next digital project to help you
-        soar to new heights!
-      </p>
+      <div class="flex-center-responsive landing">
+        <img
+          src="../assets/high_flying.png"
+          alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
+        />
+        <div class="flex-column">
+          <p>
+            Let an expert at Bigital guide your next project to soar to new
+            heights!
+          </p>
+          <NuxtLink to="/contact">
+            <button class="btn-CTA"><span> Connect Now </span></button>
+          </NuxtLink>
+        </div>
+      </div>
     </section>
 
     <section class="text-center bg-plate">
@@ -49,7 +56,7 @@
     </section>
 
     <section class="text-center bg-plate">
-      <h2>Favorite Tools :</h2>
+      <h2>Favorite Tools</h2>
       <div class="flex-center">
         <DisplayItem
           image="icons/css3.svg"
@@ -92,7 +99,7 @@
           url="https://www.adobe.com/products/photoshop.html"
         />
       </div>
-      <h2>Familiar & Ready to Use :</h2>
+      <h2>Familiar & Ready to Use</h2>
       <div class="flex-center">
         <DisplayItem
           image="icons/vue-js.svg"
@@ -113,6 +120,11 @@
           image="icons/node-js.svg"
           alt="Node's Logo"
           url="https://nodejs.org/en/"
+        />
+        <DisplayItem
+          image="icons/netlify.png"
+          alt="Netlify's Logo"
+          url="https://www.netlify.com/"
         />
         <DisplayItem
           image="icons/mongodb.png"
@@ -185,9 +197,62 @@
           url="https://www.yaml.org/"
         />
         <DisplayItem
+          image="icons/matlab.svg"
+          alt="Matlab's Logo"
+          url="https://www.mathworks.com/products/matlab.html"
+        />
+        <DisplayItem
           image="icons/arduino.svg"
           alt="Arduino's Logo"
           url="https://www.arduino.cc/"
+        />
+      </div>
+      <h2>Excited to Learn More With</h2>
+      <div class="flex-center">
+        <DisplayItem
+          image="icons/golang.svg"
+          alt="Go's Logo"
+          url="https://go.dev/"
+        />
+        <DisplayItem
+          image="icons/node-js.svg"
+          alt="Node's Logo"
+          url="https://nodejs.org/en/"
+        />
+        <DisplayItem
+          image="icons/sql.png"
+          alt="SQL's Logo"
+          url="https://en.wikipedia.org/wiki/SQL"
+        />
+        <DisplayItem
+          image="icons/flutter.svg"
+          alt="Flutters's Logo"
+          url="https://flutter.dev/"
+        />
+        <DisplayItem
+          image="icons/kubernetes.svg"
+          alt="Kubernetes's Logo"
+          url="https://kubernetes.io/"
+        />
+        <DisplayItem
+          image="icons/nginx.svg"
+          alt="NGINX's Logo"
+          url="https://www.nginx.com/"
+        />
+        <DisplayItem
+          image="icons/haskell.svg"
+          alt="Haskell's Logo"
+          url="https://www.haskell.org/"
+        />
+        <DisplayItem
+          image="icons/unity.svg"
+          alt="Unitys's Logo"
+          url="https://unity.com/"
+        />
+        <DisplayItem
+          image="icons/ruby.svg"
+          alt="Ruby's Logo"
+          url="https://www.ruby-lang.org/"
         />
       </div>
     </section>
@@ -258,7 +323,8 @@
           url="https://ibigital.com/"
           github="https://github.com/Brehtyn/bgit-portfolio"
         />
-        <ExtendedCard id="flip-it"
+        <ExtendedCard
+          id="flip-it"
           title="Sudsy Serenity"
           description="A relaxing and peaceful soap store utilizing Shopify, Photoshop, and CSS."
           image="screenshots/sudsyserenity.jfif"
@@ -266,27 +332,33 @@
           url="https://sudsyserenity.com/"
         />
         <ExtendedCard
-          title="Guiding Light Preschool"
-          description="Family daycare school made with HTML, CSS, JS, and PHP hosted on Cpanel."
-          image="screenshots/glcec.jfif"
-          alt="Screenshot of GLCEC's website."
-          url="https://www.glcec.org/"
-          github="https://github.com/Brehtyn/G.L.C.E.C."
+          title="Todo Simply"
+          description="Todo list made with React, Node, and MongoDB. Special thanks to Daniel Ventura."
+          image="screenshots/todosimply.jfif"
+          alt="Screenshot of Todo Simply's App."
+          url="https://todo-simply.com/"
+          github="https://github.com/Dvent1123/task-manager-client"
+          githubAPI="https://github.com/Dvent1123/task-manager-api"
+          thanksPerson="Daniel Ventura"
+          thanksURL="https://www.venturadaniel.com/"
         />
       </div>
     </section>
 
     <section class="text-center">
+      <br>
       <h1 class="text-center">Still curious to learn more?</h1>
       <p>
-        Learn more about Bigital and the company mission by clicking "our" <wbr>
+        Learn more about Bigital and the company mission by clicking "our"
+        <wbr />
         <NuxtLink to="/about">about page.</NuxtLink>
       </p>
-      <img
-        src="../assets/curiosity.png"
-        alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
-      />
     </section>
+
+    <img
+      src="../assets/curiosity.png"
+      alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
+    />
   </div>
 </template>
 
@@ -305,6 +377,25 @@ h4,
 h5,
 h6 {
   padding: 1rem;
+}
+
+.landing > img {
+  width: 60%;
+  height: auto;
+}
+.landing > .flex-column {
+  padding: 1rem;
+  align-self: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.landing > .flex-column > p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.landing > .flex-column > a > button {
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 769px) {

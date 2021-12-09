@@ -6,7 +6,7 @@
       <p>My name is Brentyn Hanna and this is my business: engineering creative software solutions!</p>
       <p>In the future, I hope to become an aerospace engineer with ambitions to not only one day build rockets, but fly them too.</p>
       <br >
-      <p>I am passionate about space, but keep my head grounded writing & finding sensible clean code and maintaining efficient hardware with minimum as possible environmental impact.</p>
+      <p>I am passionate about space, but keep my head grounded learning to write sensibly clean code and maintaining efficient hardware with minimal as possible environmental impact.</p>
     </section>
     <section class="bg-plate">
       <p>

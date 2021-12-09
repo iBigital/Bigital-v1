@@ -11,8 +11,8 @@
       <div class="flex-center-responsive">
         <a v-if="url" :href="url" class="btn"> Live Demo </a>
         <a v-if="github" :href="github" class="btn"> Github </a>
-        <a v-if="githubAPI" :href="github" class="btn"> API Github </a>
-        <a v-if="thanksURL" :href="github" class="btn"> {{thanksPerson}} </a>
+        <a v-if="githubAPI" :href="githubAPI" class="btn"> API Github </a>
+        <a v-if="thanksURL" :href="thanksURL" class="btn"> {{thanksPerson}} </a>
       </div>
     </div>
   </section>
@@ -40,22 +40,27 @@ export default {
     url: {
       type: String,
       default: false,
+      required: false,
     },
     github: {
       type: String,
       default: false,
+      required: false,
     },
     githubAPI: {
       type: String,
       default: false,
+      required: false,
     },
     thanksPerson: {
       type: String,
       default: false,
+      required: false,
     },
     thanksURL: {
       type: String,
       default: false,
+      required: false,
     },
   },
 };
