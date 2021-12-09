@@ -10,11 +10,11 @@
   }
 :root {
     --color-primary: rgb(119, 159, 233);
-    --color-secondary: #646360;
+    --color-secondary: radial-gradient(circle, #f5f5f5 0%, #f2f3f4 20%);
+    --color-special:  #6aa2c7;
   
     --color-neutral: #f5f5f5;
-  
-    --color-menu-border: #5dcdd1;
+    --color-neutral-dark: #888888;
 
     --ff-primary: Merriweather, serif;
     --ff-accent: Sora, Helvetica, sans-serif;
@@ -28,25 +28,48 @@
     padding: 0;
     margin: 0;
 }
+*::selection{
+    background: var(--color-special); 
+  }
+*::-moz-selection {
+    background: var(--color-special); 
+  }
   
 a, ul, li { 
-    text-decoration: none;
     list-style: none;
+}
+p > a:hover {
+    border-spacing: 4px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12x;
+    border-radius: 12px;
+    border: solid;
+    border-color: var(--color-primary);
+    transition: 0.5s;
+    padding: 10px;
+    cursor: pointer;
 }
   
 .bg-primary {
     background-color: var(--color-primary);
+
 }
-  
-.bg-secondary {
-    background-color: var(--color-secondary);
+.daycycle-background {
+    background: linear-gradient(93deg, #190281, #779fe9, #779fe9, #779fe9, #779fe9, #211552, #e80a08);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: daycycle 36s ease infinite;
+    -moz-animation: daycycle 36s ease infinite;
+    -o-animation: daycycle 36s ease infinite;
+    animation: daycycle 36s ease infinite;
 }
 
 .bg-plate {
-    background-color: var(--color-secondary);
+    background-image: var(--color-secondary);
     border-radius: 25px;
     width: 95%;
     padding: 2rem;
+    color: #000 !important;
 }
 
 body,
@@ -55,10 +78,13 @@ p {
     margin: 0;
     padding: 0;
 }
-  
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--ff-accent);
     font-weight: 800;
+}
+a {
+    color: inherit;
+    
 }
 
 body {
@@ -96,7 +122,7 @@ section:not(:first-child) {
 .flex-center-responsive { /* Desktop: Rows | Mobile: Columns */
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: top;
 }
 @media screen and (max-width: 768px) {
     .flex-center-responsive {
@@ -111,15 +137,7 @@ section:not(:first-child) {
     text-align: center;
 }
 
-.daycycle-background {
-    background: linear-gradient(93deg, #4b4646, #779fe9, #779fe9, #779fe9, #779fe9, #211552, #e80a08);
-    background-size: 1600% 1600%;
-
-    -webkit-animation: daycycle 36s ease infinite;
-    -moz-animation: daycycle 36s ease infinite;
-    -o-animation: daycycle 36s ease infinite;
-    animation: daycycle 36s ease infinite;
-}
+/* Daycycle animation for daycycle background*/
 
 @-webkit-keyframes daycycle {
     0%{background-position:0% 23%}

@@ -90,7 +90,7 @@
     -webkit-border-radius: 12x;
     border-radius: 12px;
     border: 2px solid;
-    border-color: var(--color-menu-border);
+    border-color: var(--color-special);
     transition: 0.5s;
     padding: 6px;
     padding-bottom: 0px;

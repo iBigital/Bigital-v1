@@ -7,16 +7,17 @@
         alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
       />
       <p>
-        Let an expert at Bigital guide your next digital project to help you soar to new heights!
+        Let an expert at Bigital guide your next digital project to help you
+        soar to new heights!
       </p>
     </section>
 
     <section class="text-center bg-plate">
-      <h2>Service Offerings</h2>
+      <h2>Service Packages</h2>
       <p>
-        Whether you need a website, mobile app, hosting service, or
-        software consulting, Bigital can craft the solutions your business or
-        great idea needs to get going!
+        Whether you need a website, mobile app, hosting service, or software
+        consulting, Bigital can craft the solutions your business or great idea
+        needs to get going!
       </p>
       <div class="flex-center-responsive">
         <StandardCard
@@ -61,12 +62,12 @@
           url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         />
         <DisplayItem
-          image="icons/Nuxt.png"
+          image="icons/nuxt.png"
           alt="Nuxt's Logo"
           url="https://nuxtjs.org/"
         />
         <DisplayItem
-          image="icons/Github.svg"
+          image="icons/github.svg"
           alt="Github's Logo"
           url="https://github.com/"
         />
@@ -76,17 +77,17 @@
           url="https://cpanel.net/"
         />
         <DisplayItem
-          image="icons/Golang.svg"
+          image="icons/golang.svg"
           alt="Go's Logo"
           url="https://go.dev/"
         />
         <DisplayItem
-          image="icons/Shopify.svg"
+          image="icons/shopify.svg"
           alt="Shopify's Logo"
           url="https://shopify.dev/"
         />
         <DisplayItem
-          image="icons/Photoshop.svg"
+          image="icons/photoshop.svg"
           alt="Photoshop's Logo"
           url="https://www.adobe.com/products/photoshop.html"
         />
@@ -144,7 +145,7 @@
           url="https://dotnet.microsoft.com/en-us/languages/csharp"
         />
         <DisplayItem
-          image="icons/Wordpress.svg"
+          image="icons/wordpress.svg"
           alt="Wordpress's Logo"
           url="https://wordpress.org/"
         />
@@ -179,7 +180,7 @@
           url="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/powershell"
         />
         <DisplayItem
-          image="icons/YAML.png"
+          image="icons/yaml.png"
           alt="YAML's Logo"
           url="https://www.yaml.org/"
         />
@@ -192,15 +193,17 @@
     </section>
 
     <section class="text-center">
-      <h1>Community above all else!</h1>
+      <h1>Community above all else.</h1>
       <img
         src="../assets/table_relief.png"
         alt="Bigital's mascot and logo phil finishing giving aid to Brown on a table while a crowd gathers."
       />
       <p>
-        Supporting the community and helping others is important. <br />
-        Bigital offers 70% off website & consulting services for nonprofits,
-        charities, and other giving organizations. No strings attached.
+        Supporting communities and helping others is imperative no matter where.
+        <br />
+        To give back, Bigital offers 70% off website & consulting services for
+        nonprofits, charities, and other giving organizations. No strings
+        attached.
       </p>
     </section>
 
@@ -208,6 +211,17 @@
       <h2>Contact to Learn More</h2>
       <div class="flex-center-responsive">
         <ContactCard />
+        <div class="contact-side-plate">
+          <h3>What do you need help with?</h3>
+          <p>
+            Pro tip: Asking doesn't cost a thing! From small to large, Bigital
+            is willing to hear out your troubles.
+          </p>
+          <p>
+            Send messages with relevant details including project, timeline, and
+            budget to begin as soon as today!
+          </p>
+        </div>
       </div>
     </section>
 
@@ -222,18 +236,53 @@
         possible without massive contribution to open source projects.
         <br />
         <br />
-        If you'd like to see the code running this page (or other services),
-        feel free:
-        <br />
+        To see the code running this page (and many other services), feel free
+        to click here:
         <a href="https://github.com/Brehtyn"> Github Repos </a>
       </p>
     </section>
 
+    <section class="text-center bg-plate">
+      <h2>Project Examples</h2>
+      <p>
+        Explore some of the projects Bigital has worked on. If you'd like to see
+        more, check out this
+        <NuxtLink to="/portfolio"> portfolio page. </NuxtLink>
+      </p>
+      <div>
+        <ExtendedCard
+          title="Bigital's Portfolio"
+          description="Wonder where you've seen this before. Running on Nuxt and utilizing loads more."
+          image="screenshots/bigital.jfif"
+          alt="Screenshot of Bigital's website."
+          url="https://ibigital.com/"
+          github="https://github.com/Brehtyn/bgit-portfolio"
+        />
+        <ExtendedCard id="flip-it"
+          title="Sudsy Serenity"
+          description="A relaxing and peaceful soap store utilizing Shopify, Photoshop, and CSS."
+          image="screenshots/sudsyserenity.jfif"
+          alt="Screenshot of Sudsy Serenity's website."
+          url="https://sudsyserenity.com/"
+          github="https://github.com/Brehtyn?tab=repositories"
+        />
+        <ExtendedCard
+          title="Guiding Light Preschool"
+          description="Family daycare school made with plain HTML, CSS, JS, and PHP hosted on Cpanel."
+          image="screenshots/glcec.jfif"
+          alt="Screenshot of GLCEC's website."
+          url="https://www.glcec.org/"
+          github="https://github.com/Brehtyn/G.L.C.E.C."
+        />
+      </div>
+    </section>
+
     <section class="text-center">
-      <h1>Curious to learn more?</h1>
-      <NuxtLink to="/portfolio"> Portfolio </NuxtLink> |
-    
-      <NuxtLink to="/about"> About "Us" </NuxtLink>
+      <h1 class="text-center">Still curious to learn more?</h1>
+      <p>
+        Learn more about Bigital and the company mission by clicking "our" <wbr>
+        <NuxtLink to="/about">about page.</NuxtLink>
+      </p>
       <img
         src="../assets/curiosity.png"
         alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
@@ -247,9 +296,30 @@ export default {};
 </script>
 
 <style scoped>
-.bg-plate > h2,
-.bg-plate > h3,
 .bg-plate > p {
   padding: 1rem;
+}
+.bg-plate > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  .contact-side-plate {
+    max-width: 40%;
+  }
+}
+.contact-side-plate,
+.contact-side-plate > * {
+  padding: 1rem;
+  text-align: left;
+}
+.contact-side-plate > p {
+  color: var(--color-neutral-dark);
+  font-size: 1rem;
 }
 </style>

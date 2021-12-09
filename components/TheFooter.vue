@@ -14,17 +14,19 @@
 
 <style>
 footer {
-  margin: 2rem;
-  border-top: solid 1px var(--color-neutral);
-  background-color: var(--color-primary);
+
+  font-size: 1rem;
 }
 footer > div {
   display: none !important;
   padding: 20px;
+  border-top: solid 1px var(--color-neutral);
+  margin: 2rem;
 }
 @media screen and (max-width: 1049px) {
   footer > div {
     display: block !important;
+    margin-bottom: 0;
   }
 }
 </style>

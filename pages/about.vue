@@ -1,14 +1,27 @@
 <template>
-  <div class="about">
-    <section class="text-center">
+  <div class="text-center">
+    <section> 
       <h1>About</h1>
+      <br >
+      <p>My name is Brentyn Hanna and this is my business: engineering creative software solutions!</p>
+      <p>In the future, I hope to become an aerospace engineer with ambitions to not only one day build rockets, but fly them too.</p>
+      <br >
+      <p>I am passionate about space, but keep my head grounded writing & finding sensible clean code and maintaining efficient hardware with minimum as possible environmental impact.</p>
+    </section>
+    <section class="bg-plate">
+      <p>
+        You are personally supporting my life's ambitions by taking the time to
+        read what I am all about (and boosting my SEO by just staying on this
+        site).
+      </p>
       <img
-        src="../assets/high_flying.png"
+        src="../assets/launch_prep.png"
         alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
       />
-      <p>   
-          More is coming soon.
-      </p>
+      <p>Genuinely, thank you!!!</p>
+    </section>
+    <section>
+      <p>More is coming soon.</p>
     </section>
   </div>
 </template>
