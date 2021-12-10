@@ -55,14 +55,19 @@
         title="Custom"
         description="We can help you build your software to your specifications."
       />
+      <ExtendedCard
+        title="Wait one second...?"
+        description="A savy person might notice some of these services are lacking! Thats because an AI wrote the above information as a temporary placeholder while Bigital is building our clients needs."
+      />
     </section>
 
- <section class="text-center">
+    <section class="text-center">
       <p>More detailed offerings will be avaliable soon.</p>
+
       <br />
-      <img 
-      src="../assets/strange_meeting.png" 
-      alt="Phil, Bigital's Logo, meeting strange glowing rabbits in a blue alien place. Socks flying rocket."
+      <img
+        src="../assets/strange_meeting.png"
+        alt="Phil, Bigital's Logo, having wide eyes at meeting strange glowing rabbits in a blue alien place. Socks flying rocket. 'Your Data, Your Designer, Your Developer. Your Next Fullstack Expert'"
       />
     </section>
   </div>

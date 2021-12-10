@@ -100,6 +100,9 @@ body {
 img {
     max-width: 100%;
 }
+.img-cover {
+    width: stretch;
+}
 
 section {
     padding: 2rem;

@@ -34,6 +34,7 @@
       <p>More is coming soon.</p>
     </section>
     <img
+      class="img-cover"
       src="../assets/curiosity.png"
       alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
     />

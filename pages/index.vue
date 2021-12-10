@@ -347,15 +347,16 @@
 
     <section class="text-center">
       <br>
-      <h1 class="text-center">Still curious to learn more?</h1>
+      <h1 class="text-center">Still curious to learn?</h1>
       <p>
-        Learn more about Bigital and the company mission by clicking "our"
+        Find out more about Bigital and the company mission by clicking "our"
         <wbr />
         <NuxtLink to="/about">about page.</NuxtLink>
       </p>
     </section>
 
     <img
+      class="img-cover"
       src="../assets/curiosity.png"
       alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
     />
