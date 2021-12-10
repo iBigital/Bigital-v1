@@ -2,8 +2,17 @@
     deployment:
         tasks:
             - export DEPLOYPATH=/home/bgitibigital/public_html/
-            - /bin/cp bigital/dist/index.html $DEPLOYPATH
-            - /bin/cp bigital/dist/favicon.ico $DEPLOYPATH
-            - /bin/cp -R bigital/dist/js $DEPLOYPATH
-            - /bin/cp -R bigital/dist/css $DEPLOYPATH
-            - /bin/cp -R bigital/dist/img $DEPLOYPATH
+            - /bin/cp -R dist/_nuxt $DEPLOYPATH
+            - /bin/cp -R dist/about $DEPLOYPATH
+            - /bin/cp -R dist/assets $DEPLOYPATH
+            - /bin/cp -R dist/contact $DEPLOYPATH
+            - /bin/cp -R dist/icons $DEPLOYPATH
+            - /bin/cp -R dist/portfolio $DEPLOYPATH
+            - /bin/cp -R dist/screenshots $DEPLOYPATH
+            - /bin/cp -R dist/services $DEPLOYPATH
+            - /bin/cp dist/.nojekyll $DEPLOYPATH
+            - /bin/cp dist/200.html $DEPLOYPATH
+            - /bin/cp dist/index.html $DEPLOYPATH
+            - /bin/cp dist/license.txt $DEPLOYPATH
+            - /bin/cp dist/robots.txt $DEPLOYPATH
+            - /bin/cp dist/sitemap.txt $DEPLOYPATH
