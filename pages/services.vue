@@ -14,8 +14,6 @@
           absolute wilderness, so hire an expert to navigate your way.
         </p>
       </div>
-      <br />
-      <p>More detailed offerings will be avaliable soon.</p>
     </section>
     <section class="bg-plate">
       <ExtendedCard
@@ -56,15 +54,16 @@
         id="flip-it"
         title="Custom"
         description="We can help you build your software to your specifications."
-       />
+      />
     </section>
 
-    <section class="text-center">
-      <img
-        src="../assets/high_flying.png"
-        alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
+ <section class="text-center">
+      <p>More detailed offerings will be avaliable soon.</p>
+      <br />
+      <img 
+      src="../assets/strange_meeting.png" 
+      alt="Phil, Bigital's Logo, meeting strange glowing rabbits in a blue alien place. Socks flying rocket."
       />
-      <p>More is coming soon.</p>
     </section>
   </div>
 </template>

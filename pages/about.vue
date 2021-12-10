@@ -1,12 +1,22 @@
 <template>
   <div class="text-center">
-    <section> 
+    <section>
       <h1>About</h1>
-      <br >
-      <p>My name is Brentyn Hanna and this is my business: engineering creative software solutions!</p>
-      <p>In the future, I hope to become an aerospace engineer with ambitions to not only one day build rockets, but fly them too.</p>
-      <br >
-      <p>I am passionate about space, but keep my head grounded learning to write sensibly clean code and maintaining efficient hardware with minimal as possible environmental impact.</p>
+      <br />
+      <p>
+        My name is Brentyn Hanna and this is my business: engineering creative
+        software solutions!
+      </p>
+      <p>
+        In the future, I hope to become an aerospace engineer with ambitions to
+        not only one day build rockets, but fly them too.
+      </p>
+      <br />
+      <p>
+        I am passionate about space, but keep my head grounded learning to write
+        sensibly clean code and maintaining efficient hardware with minimal as
+        possible environmental impact.
+      </p>
     </section>
     <section class="bg-plate">
       <p>
@@ -23,6 +33,10 @@
     <section>
       <p>More is coming soon.</p>
     </section>
+    <img
+      src="../assets/curiosity.png"
+      alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
+    />
   </div>
 </template>
 
