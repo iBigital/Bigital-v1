@@ -19,6 +19,19 @@
       </div>
     </section>
 
+    <section class="bg-plate">
+      <h2>The Misson:</h2>
+      <div>
+        <p>
+          Bigital (rhymes with Digital) is a software consulting firm that
+          specializes in finding creative solutions for your needs. From getting
+          a business online for the first time to implementing custom full stack
+          applications for established projects, Bigital will just help you get
+          the job done.
+        </p>
+      </div>
+    </section>
+
     <section class="text-center">
       <img
         src="../assets/drop_ship.png"
@@ -91,7 +104,7 @@
         <StandardCard
           title="Web Design"
           image="icons/desktop.svg"
-          description="From simple landing pages to complex webapps featuring enterprise functionality: it'll be pretty too!"
+          description="Simple landing pages to complex webapps featuring enterprise functionality; it'll be pretty too!"
         />
         <StandardCard
           title="Hosting"
@@ -113,7 +126,7 @@
         alt="Bigital's mascot and logo phil finishing giving aid to Brown on a table while a crowd gathers."
       />
       <p>
-        Supporting communities and helping others is imperative no matter where.
+        Helping others is imperative, no matter where.
         <br />
         To give back, Bigital offers 70% off website & consulting services for
         nonprofits, charities, and other giving organizations. No strings
@@ -126,13 +139,13 @@
       <div class="flex-center-responsive">
         <ContactCard />
         <div class="contact-side-plate">
-          <h3>What do you need help with?</h3>
+          <h3>Need help?</h3>
           <p>
-            Pro tip: Asking doesn't cost a thing! From small to large, Bigital
+            Pro tip: just ask! <br/>From small to large, Bigital
             is willing to hear out your troubles.
           </p>
           <p>
-            Send messages with relevant details including project, timeline, and
+            Send a message with relevant details including project, timeline, and
             budget to begin as soon as today!
           </p>
         </div>
@@ -158,11 +171,7 @@
 
     <section class="text-center bg-plate">
       <h2>Project Examples</h2>
-      <p>
-        Explore some of the projects Bigital has worked on. If you'd like to see
-        more, check out this
-        <NuxtLink to="/portfolio"> portfolio page. </NuxtLink>
-      </p>
+      <p>Explore a small sample of projects Bigital has worked on.</p>
       <div>
         <ExtendedCard
           title="Bigital's Portfolio"
@@ -191,6 +200,10 @@
           thanksPerson="Daniel Ventura"
           thanksURL="https://www.venturadaniel.com/"
         />
+        <p>
+          If you'd like to see more, check out this
+          <NuxtLink to="/portfolio"> portfolio page. </NuxtLink>
+        </p>
       </div>
     </section>
 
@@ -198,10 +211,10 @@
       <br />
       <h1 class="text-center">Still curious to learn more?</h1>
       <p>
-        Find out more about Bigital's services by visiting the
-        <wbr /> 
-        <NuxtLink to="/services">service page </NuxtLink> 
-        or the company mission by clicking "our"
+        Find out all of Bigital's offerings by visiting this
+        <wbr />
+        <NuxtLink to="/services">service page</NuxtLink>
+        or more about the company mission by clicking "our"
         <wbr />
         <NuxtLink to="/about">about page.</NuxtLink>
       </p>
