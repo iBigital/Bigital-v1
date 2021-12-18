@@ -76,13 +76,14 @@ section {
   background-color: var(--color-neutral);
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  padding: 2.5rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
   color: #000;
   background-color: var(--color-neutral);
   margin: 1rem auto;
+}
+section > div:last-of-type {
+  padding: 0 3rem;
 }
 #flip-it {
   flex-direction: row-reverse;
@@ -93,13 +94,9 @@ section {
     align-items: flex-start !important;
     align-self: flex-start !important;
   }
-  section {
-    padding-right: 12%;
-  }
-  #flip-it {
-    padding-left: 17%;
-    padding-right: 0;
-  }
+  section > div > a > img {
+  padding-left: 2rem !important;
+}
 }
 
 @media screen and (max-width: 650px) {
