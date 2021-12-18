@@ -23,7 +23,7 @@
       />
       <ExtendedCard
         title="Call of Dooty 702"
-        description="Local professional handyman and his crew's landing page. HTML, CSS, & Photoshop hosted on Cpanel."
+        description="Local professional handyman and his crew's landing page. HTML, CSS, & Photoshop hosted on cPanel."
         image="screenshots/cod702.jfif"
         alt="Screenshot of Call of Dooty's website."
         url="https://callofdooty702.com/"
@@ -39,7 +39,7 @@
       />
       <ExtendedCard
         title="Guiding Light Preschool"
-        description="Family daycare school made with plain HTML, CSS, JS, and PHP hosted on Cpanel."
+        description="Family daycare school made with plain HTML, CSS, JS, and PHP hosted on cPanel."
         image="screenshots/glcec.jfif"
         alt="Screenshot of GLCEC's website."
         url="https://www.glcec.org/"

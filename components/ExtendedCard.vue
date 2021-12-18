@@ -2,7 +2,7 @@
   <section class="flex-center-responsive">
     <div>
       <a :href="url">
-        <img :src="image" :alt="alt" id="screenshot_image"/>
+        <img :src="image" :alt="alt" id="screenshot_image" />
       </a>
     </div>
     <div>
@@ -12,7 +12,9 @@
         <a v-if="url" :href="url" class="btn"> Live Demo </a>
         <a v-if="github" :href="github" class="btn"> Github </a>
         <a v-if="githubAPI" :href="githubAPI" class="btn"> API Github </a>
-        <a v-if="thanksURL" :href="thanksURL" class="btn"> {{thanksPerson}} </a>
+        <a v-if="thanksURL" :href="thanksURL" class="btn">
+          {{ thanksPerson }}
+        </a>
       </div>
     </div>
   </section>
@@ -69,28 +71,44 @@ export default {
 <style scoped>
 section {
   width: 100%;
+  max-width: 1000px;
   height: 100%;
   background-color: var(--color-neutral);
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  padding: 1.5rem;
+  padding: 2.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   color: #000;
   background-color: var(--color-neutral);
-  margin: 1rem 0;
+  margin: 1rem auto;
 }
 #flip-it {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
+
+@media screen and (min-width: 650px) {
+  section > div > h3 {
+    align-items: flex-start !important;
+    align-self: flex-start !important;
+  }
+  section {
+    padding-right: 12%;
+  }
+  #flip-it {
+    padding-left: 17%;
+    padding-right: 0;
+  }
+}
+
 @media screen and (max-width: 650px) {
   section {
     flex-direction: column;
   }
   #flip-it {
     flex-direction: column;
-}
+  }
 }
 
 div {
@@ -109,10 +127,10 @@ img {
   margin-bottom: 1rem;
 }
 #screenshot_image {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
 }
 p {
   text-align: left;
@@ -121,14 +139,14 @@ p {
   color: var(--color-neutral-dark);
 }
 .btn {
-    margin: 0.5rem 4rem;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    background-color: var(--color-primary);
-    color: var(--color-special);
-    width: 50%;
-    min-width: 200px;
-    color: black;
-    text-decoration: none;
+  margin: 0.5rem 4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  color: var(--color-special);
+  width: 50%;
+  min-width: 200px;
+  color: black;
+  text-decoration: none;
 }
 </style>

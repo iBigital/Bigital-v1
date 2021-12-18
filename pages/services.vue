@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="text-center">
-      <h1>Services</h1>
+    <section>
+      <h1 class="text-center">Services</h1>
       <div class="service-intro flex-center-responsive">
         <img
           src="../assets/common/logo.png"
@@ -34,12 +34,13 @@
       />
       <ExtendedCard
         id="flip-it"
-        title="Automation"
-        description="We can help you automate your workflow with our custom automation solutions."
-      />
-      <ExtendedCard
         title="Testing"
         description="We can help you test your software to ensure it's working as expected."
+      />
+      <ExtendedCard
+        title="Automation"
+        image="icons/automation.png"
+        description="We can help you automate your workflow with our custom automation solutions."
       />
       <ExtendedCard
         id="flip-it"

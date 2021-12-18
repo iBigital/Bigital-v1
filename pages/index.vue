@@ -94,6 +94,11 @@
           url="https://shopify.dev/"
         />
         <DisplayItem
+          image="icons/figma.svg"
+          alt="Figma's Logo"
+          url="https://www.figma.com/"
+        />
+        <DisplayItem
           image="icons/photoshop.svg"
           alt="Photoshop's Logo"
           url="https://www.adobe.com/products/photoshop.html"
@@ -115,6 +120,11 @@
           image="icons/react-js.svg"
           alt="React's Logo"
           url="https://reactjs.org/"
+        />
+        <DisplayItem
+          image="icons/sass.svg"
+          alt="Sass's Logo"
+          url="https://sass-lang.com/"
         />
         <DisplayItem
           image="icons/node-js.svg"
@@ -346,9 +356,10 @@
     </section>
 
     <section class="text-center">
-      <br>
+      <br />
       <h1 class="text-center">Still curious to learn?</h1>
       <p>
+        <Dan name="Daniel" />
         Find out more about Bigital and the company mission by clicking "our"
         <wbr />
         <NuxtLink to="/about">about page.</NuxtLink>

@@ -5,6 +5,7 @@
         <img height="40px" alt="Bigital Rabbit Logo" src="assets/logo.png" />
       </NuxtLink>
       <span> </span>
+      <NuxtLink to="/services"> Home </NuxtLink>
       <NuxtLink to="/services"> Services </NuxtLink>
       <NuxtLink to="/portfolio"> Portfolio </NuxtLink>
       <NuxtLink to="/about"> About </NuxtLink>
