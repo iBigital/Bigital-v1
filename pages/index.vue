@@ -19,32 +19,6 @@
       </div>
     </section>
 
-    <section class="text-center bg-plate">
-      <h2>Service Packages</h2>
-      <p>
-        Whether you need a website, mobile app, hosting service, or software
-        consulting, Bigital can craft the solutions your business or great idea
-        needs to get going!
-      </p>
-      <div class="flex-center-responsive">
-        <StandardCard
-          title="Web Design"
-          image="icons/desktop.svg"
-          description="From simple landing pages to complex webapps featuring enterprise functionality: it'll be pretty too!"
-        />
-        <StandardCard
-          title="Hosting"
-          image="icons/server.svg"
-          description="Enviromentally friendly servers without compromising top notch performance."
-        />
-        <StandardCard
-          title="Consulting"
-          image="icons/consulting.svg"
-          description="Is your production build slow or completely broken? Contact now to discuss custom consulting options."
-        />
-      </div>
-    </section>
-
     <section class="text-center">
       <img
         src="../assets/drop_ship.png"
@@ -104,165 +78,30 @@
           url="https://www.adobe.com/products/photoshop.html"
         />
       </div>
-      <h2>Familiar & Ready to Use</h2>
-      <div class="flex-center">
-        <DisplayItem
-          image="icons/vue-js.svg"
-          alt="Vue's Logo"
-          url="https://vuejs.org/"
+    </section>
+
+    <section class="text-center bg-plate">
+      <h2>Service Packages</h2>
+      <p>
+        Whether you need a website, mobile app, hosting service, or software
+        consulting, Bigital can craft the solutions your business or great idea
+        needs to get going!
+      </p>
+      <div class="flex-center-responsive">
+        <StandardCard
+          title="Web Design"
+          image="icons/desktop.svg"
+          description="From simple landing pages to complex webapps featuring enterprise functionality: it'll be pretty too!"
         />
-        <DisplayItem
-          image="icons/blazor.png"
-          alt="Blazor's Logo"
-          url="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+        <StandardCard
+          title="Hosting"
+          image="icons/server.svg"
+          description="Enviromentally friendly servers without compromising top notch performance."
         />
-        <DisplayItem
-          image="icons/react-js.svg"
-          alt="React's Logo"
-          url="https://reactjs.org/"
-        />
-        <DisplayItem
-          image="icons/sass.svg"
-          alt="Sass's Logo"
-          url="https://sass-lang.com/"
-        />
-        <DisplayItem
-          image="icons/node-js.svg"
-          alt="Node's Logo"
-          url="https://nodejs.org/en/"
-        />
-        <DisplayItem
-          image="icons/netlify.png"
-          alt="Netlify's Logo"
-          url="https://www.netlify.com/"
-        />
-        <DisplayItem
-          image="icons/mongodb.png"
-          alt="MongoDB's Logo"
-          url="https://www.mongodb.com/"
-        />
-        <DisplayItem
-          image="icons/c++.svg"
-          alt="C++'s Logo"
-          url="https://www.cplusplus.com/"
-        />
-        <DisplayItem
-          image="icons/java.svg"
-          alt="Java's Logo"
-          url="https://www.java.com/"
-        />
-        <DisplayItem
-          image="icons/php.png"
-          alt="PHP's Logo"
-          url="https://www.php.net/"
-        />
-        <DisplayItem
-          image="icons/dotnet.png"
-          alt=".NET's Logo"
-          url="https://dotnet.microsoft.com/"
-        />
-        <DisplayItem
-          image="icons/c-sharp.svg"
-          alt="C#'s Logo"
-          url="https://dotnet.microsoft.com/en-us/languages/csharp"
-        />
-        <DisplayItem
-          image="icons/wordpress.svg"
-          alt="Wordpress's Logo"
-          url="https://wordpress.org/"
-        />
-        <DisplayItem
-          image="icons/linux.png"
-          alt="Linux's Logo"
-          url="https://www.linux.org/"
-        />
-        <DisplayItem
-          image="icons/ubuntu.png"
-          alt="Ubuntu's Logo"
-          url="https://www.ubuntu.com/"
-        />
-        <DisplayItem
-          image="icons/git.svg"
-          alt="Git's Logo"
-          url="https://git-scm.com/"
-        />
-        <DisplayItem
-          image="icons/copilot.png"
-          alt="Github Copilot Logo"
-          url="https://copilot.github.com/"
-        />
-        <DisplayItem
-          image="icons/bash.svg"
-          alt="Bash's Logo"
-          url="https://www.gnu.org/software/bash/"
-        />
-        <DisplayItem
-          image="icons/powershell.svg"
-          alt="PowerShell's Logo"
-          url="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/powershell"
-        />
-        <DisplayItem
-          image="icons/yaml.png"
-          alt="YAML's Logo"
-          url="https://www.yaml.org/"
-        />
-        <DisplayItem
-          image="icons/matlab.svg"
-          alt="Matlab's Logo"
-          url="https://www.mathworks.com/products/matlab.html"
-        />
-        <DisplayItem
-          image="icons/arduino.svg"
-          alt="Arduino's Logo"
-          url="https://www.arduino.cc/"
-        />
-      </div>
-      <h2>Excited to Learn More With</h2>
-      <div class="flex-center">
-        <DisplayItem
-          image="icons/golang.svg"
-          alt="Go's Logo"
-          url="https://go.dev/"
-        />
-        <DisplayItem
-          image="icons/node-js.svg"
-          alt="Node's Logo"
-          url="https://nodejs.org/en/"
-        />
-        <DisplayItem
-          image="icons/sql.png"
-          alt="SQL's Logo"
-          url="https://en.wikipedia.org/wiki/SQL"
-        />
-        <DisplayItem
-          image="icons/flutter.svg"
-          alt="Flutters's Logo"
-          url="https://flutter.dev/"
-        />
-        <DisplayItem
-          image="icons/kubernetes.svg"
-          alt="Kubernetes's Logo"
-          url="https://kubernetes.io/"
-        />
-        <DisplayItem
-          image="icons/nginx.svg"
-          alt="NGINX's Logo"
-          url="https://www.nginx.com/"
-        />
-        <DisplayItem
-          image="icons/haskell.svg"
-          alt="Haskell's Logo"
-          url="https://www.haskell.org/"
-        />
-        <DisplayItem
-          image="icons/unity.svg"
-          alt="Unitys's Logo"
-          url="https://unity.com/"
-        />
-        <DisplayItem
-          image="icons/ruby.svg"
-          alt="Ruby's Logo"
-          url="https://www.ruby-lang.org/"
+        <StandardCard
+          title="Consulting"
+          image="icons/consulting.svg"
+          description="Is your production build slow or completely broken? Contact now to discuss custom consulting options."
         />
       </div>
     </section>
@@ -357,10 +196,12 @@
 
     <section class="text-center">
       <br />
-      <h1 class="text-center">Still curious to learn?</h1>
+      <h1 class="text-center">Still curious to learn more?</h1>
       <p>
-        <Dan name="Daniel" />
-        Find out more about Bigital and the company mission by clicking "our"
+        Find out more about Bigital's services by visiting the
+        <wbr /> 
+        <NuxtLink to="/services">service page </NuxtLink> 
+        or the company mission by clicking "our"
         <wbr />
         <NuxtLink to="/about">about page.</NuxtLink>
       </p>
