@@ -1,4 +1,5 @@
-# bgit-nuxt-portfolio
+#DEPRECATED
+This project has upgraded/changed repositories and this one no longer will be maintained.
 
 ## Build Setup
 
